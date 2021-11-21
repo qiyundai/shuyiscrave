@@ -100,3 +100,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "underscores/utilities/alignments";
+
+/* Formattings */
+
+@import "formatting/1-fonts";
+@import "formatting/2-variables";
+@import "formatting/3-mixins";
+@import "formatting/4-typographies";
+
+/* Partials */
+@import "header";
+@import "footer";
+

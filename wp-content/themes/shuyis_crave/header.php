@@ -26,5 +26,10 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'shuyis_crave' ); ?></a>
 
 	<header id="masthead" class="site-header">
-
+        <div class="navbar">
+            <div class="navbar--desktop">
+                <a class="navbar__title" href="">Shuyi's Crave</a>
+                <p class="navbar__tagline">Food is a religion</p>
+            </div>
+        </div>
 	</header><!-- #masthead -->
