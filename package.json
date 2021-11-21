@@ -1,0 +1,22 @@
+{
+  "name": "shuyiscrave",
+  "version": "1.0.0",
+  "description": "Shuyi's Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiyundai/shuyiscrave.git"
+  },
+  "keywords": [
+    "shuyiscrave"
+  ],
+  "author": "Qiyun Dai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiyundai/shuyiscrave/issues"
+  },
+  "homepage": "https://github.com/qiyundai/shuyiscrave#readme"
+}
