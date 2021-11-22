@@ -1,0 +1,18 @@
+$season: ('name': 'fall');
+
+$color__scheme: (
+        "fall": (
+                "text": #2D2424,
+                "dark": #5C3D2E,
+                "medium": #B85C38,
+                "light": #E0C097,
+        ),
+        "spring": (
+
+        ),
+);
+
+$color__text: map-get(map-get($color__scheme, map-get($season, 'name')), 'text');
+$color__dark: map-get(map-get($color__scheme, map-get($season, 'name')), 'dark');
+$color__medium: map-get(map-get($color__scheme, map-get($season, 'name')), 'medium');
+$color__light: map-get(map-get($color__scheme, map-get($season, 'name')), 'light');

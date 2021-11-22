@@ -27,9 +27,16 @@
 
 	<header id="masthead" class="site-header">
         <div class="navbar">
-            <div class="navbar--desktop">
-                <a class="navbar__title" href="">Shuyi's Crave</a>
-                <p class="navbar__tagline">Food is a religion</p>
+            <div class="navbar--left">
+                <a class="navbar__title" href=""><h5>Shuyi's Crave |</h5></a>
+                <p class="navbar__tagline">&nbsp Food is a religion</p>
+            </div>
+            <div class="navbar--right">
+                <a class="navbar__link" href=""><?php
+                    $curretURL = preg_split("#/#", get_template_directory_uri());
+                    echo end($curretURL);
+                    ?>
+                </a>
             </div>
         </div>
 	</header><!-- #masthead -->
