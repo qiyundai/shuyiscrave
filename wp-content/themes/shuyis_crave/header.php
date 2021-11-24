@@ -23,20 +23,23 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'shuyis_crave' ); ?></a>
-
 	<header id="masthead" class="site-header">
         <div class="navbar">
             <div class="navbar--left">
-                <a class="navbar__title" href=""><h5>Shuyi's Crave |</h5></a>
-                <p class="navbar__tagline">&nbsp Food is a religion</p>
+                <a class="navbar__title" href="home"><h5>Shuyi's Crave</h5></a>
+                <span class="navbar__divider">|</span>
+                <p class="navbar__tagline">Food is a religion</p>
             </div>
             <div class="navbar--right">
-                <a class="navbar__link" href=""><?php
-                    $curretURL = preg_split("#/#", get_template_directory_uri());
-                    echo end($curretURL);
-                    ?>
-                </a>
+                <?php
+                    $slug = get_page_template_slug();
+                    if ($slug === 'template-pages/homepage.php') {
+                        ?>
+                       <a class="navbar__link" href="recipes">Recipes</a>
+                    <?php } else { ?>
+                        <a class="navbar__link" href="home">Home</a>
+                    <?php }
+                ?>
             </div>
         </div>
 	</header><!-- #masthead -->

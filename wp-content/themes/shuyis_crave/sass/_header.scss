@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   padding: 0 8%;
+  background-color: white;
 
   .navbar {
     display: flex;
@@ -13,6 +14,10 @@
     &--left, &--right {
       display: flex;
       align-items: center;
+    }
+
+    &__divider {
+      padding: 0 8px;
     }
 
     a {
