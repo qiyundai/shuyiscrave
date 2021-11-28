@@ -4,5 +4,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Shalimar';
+  src: url("assets/fonts/Shalimar-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url("assets/fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+
 $font__dancing_script: 'Dancing Script';
-$font__raleway: 'Raleway', sans-serif;
+$font__shalimar: 'Shalimar';
+$font__caveat: 'Caveat';
